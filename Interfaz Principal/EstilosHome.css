@@ -8,6 +8,8 @@
 body {
  
     background-color: #d1d6c1;
+    height: 100vh;
+    width: 100vw;
 
 }
 
@@ -47,7 +49,7 @@ nav ul li a {
     margin-top: 0px;
     padding: 0px;
     margin-left: 2px;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 0px 25px 25px;
 }
 
 .ItemMenu {
@@ -69,7 +71,7 @@ nav ul li a {
   }
 
    .M2 {
-        border: 0.1px solid rgba(235, 62, 62, 0.2);
+        border: 0.1px solid rgba(235, 62, 62, -0.2);
         font-weight: bold;
         font-size: 18px;
   } 
@@ -97,7 +99,7 @@ nav ul li a {
 
     border-radius: 50%;
     height: 100%;
-    border: 2px solid rgba(230, 29, 29, 0.164);
+    border: 0.5px solid rgba(230, 29, 29, 0.164);
     background-color: #44424e;
     justify-items: end;
 
@@ -114,12 +116,54 @@ nav ul li a {
     display: grid;
     justify-content: start;
     align-items: center;
+    border-radius: 0px 0px 15px 0px;
+
  }
 
  .OpcionesPerfil {
-    width: 50px;
-    height: 50px;
-    background-color:rgba(189, 9, 24, 0.2);
+    width: 25px;
+    height: 30px;
+    background-color:rgba(189, 9, 24, -0.2);
     border: 0;
 } 
 
+.FlechaPerfil {
+
+    height: 25px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #d41212;
+}
+
+p {
+    text-align: center;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.LinkGuia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #434247;
+}
+
+.LinkGuia:hover {
+    color: rgb(113, 100, 199);
+    transition: all 0.2s;
+}
+
+.Guia {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    justify-items: center;
+
+}
