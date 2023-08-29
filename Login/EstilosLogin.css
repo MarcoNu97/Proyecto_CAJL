@@ -1,3 +1,4 @@
+
 body {
 	width: 100vw;
 	height: 100vh;
@@ -26,7 +27,7 @@ div#CabeceraLogin {
 	background-color: white ;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 30px;
+	margin-top: 20px;
 	padding: 1px;
 	box-sizing: border-box;
     border-radius: 10px 10px 10px 10px;
@@ -132,7 +133,7 @@ form #LinkContraseña{
 
 
 @media screen and (max-width: 480px) { /*Inicio breakpoint smarphones*/
-	
+
  div#CabeceraLogin {
 
 	height: 22px;

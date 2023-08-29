@@ -11,7 +11,9 @@ body {
     height: 100vh;
     width: 100vw;
     border:0;
-
+    background-image: url(ImagenesHome/Club_Interior.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
 }
 
 
@@ -137,18 +139,41 @@ nav ul li a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
     font-weight: bold;
-    color: #434247;
+    color: #140846;
+    text-decoration: none;
 }
 
 .LinkGuia:hover {
-    color: rgb(113, 100, 199);
+    color: rgb(156, 144, 231);
     transition: all 0.2s;
+    text-decoration: underline;
 }
 
-.Guia {
-    display: flex;
-    margin-top: 30px;
-    justify-content: center;
-    justify-items: center;
 
+.Home_container {
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.ImagenHome {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    width: 17rem;
+    height: 17rem;
+
+}
+
+.PalabrasHome {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #d40606;
+    margin-bottom: 5px;
 }
