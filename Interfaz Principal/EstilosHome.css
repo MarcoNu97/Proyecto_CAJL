@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ 
 
 body {
  
@@ -95,6 +95,7 @@ nav ul li a {
     font-size: 18px;
     width: 17rem;
     font-weight: bold;
+    color: #06040a;
     text-shadow: 1px 2px 3px grey;
 }
 
@@ -145,7 +146,7 @@ nav ul li a {
 
 .LinkGuia:hover {
     color: rgb(156, 144, 231);
-    transition: all 0.2s;
+    transition: all 0.3s;
     text-decoration: underline;
 }
 
@@ -177,3 +178,189 @@ nav ul li a {
     color: #d40606;
     margin-bottom: 5px;
 }
+
+
+
+@media screen and (max-width: 480px) { /*Inicio breakpoint smarphones*/
+
+ 
+
+
+    }/*Finalizacion breakpoint smarphones*/
+
+
+
+@media screen and (min-width: 481px) and (max-width: 990px) { /*Inicio breakpoint tablets*/
+	
+
+	}/*Finalizacion breakpoint tablets*/
+
+
+
+@media screen and (min-width: 1700px) { /*Inicio breakpoint Monitores*/
+
+
+
+
+nav {
+    background: linear-gradient(#d41212, #e43139, #ec4d4d, #d66464);
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 82px;
+    border-radius: 0px 0px 15px 15px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    height: 98%;
+    width: 100px;
+    color: #363131;
+ 
+}
+
+.centrado {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#ContenedorMenu {
+
+    background-repeat: no-repeat;
+    height: 82px;
+    display: grid;
+    grid-template-columns: 80px 2.5fr 1fr 1fr 1fr 1fr 0.2fr 0.5fr;
+    grid-template-rows: 100%;
+    margin-top: 0px;
+    padding: 0px;
+    margin-left: 2px;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.ItemMenu {
+     background: linear-gradient(#d41212, #e43139, #ec4d4d, #d66464);
+     list-style-type: none;
+     width: 6rem;
+     height: 98%;
+
+  }
+
+  .h:hover {
+
+    background-color: #be1010;
+    color:  #f8dada;
+    transition: all 0.3s;
+    border-radius: 20px 20px 20px 20px;
+
+  }
+
+   .M2 {
+        border: 0.1px solid rgba(235, 62, 62, -0.2);
+        font-weight: bold;
+        font-size: 23px;
+  } 
+
+.LogoMenu {
+
+        height: 75px;
+
+}
+
+.Logo {
+    background-color: rgb(189, 9, 24);
+    border-radius: 0px 0px 0px 20px;
+}
+
+.Texto {
+    padding: 0;
+    font-size: 23px;
+    width: 22rem;
+    font-weight: bold;
+    text-shadow: 1px 2px 3px grey;
+}
+
+.Perfil {
+
+    border-radius: 50%;
+    height: 100%;
+    border: 0.5px solid rgba(230, 29, 29, 0.164);
+    background-color: #44424e;
+    justify-items: end;
+
+}
+
+.ImagenPerfil {
+    width: 85%;
+    border-radius: 50%;
+    
+ }
+
+ .MenuPerfil {
+
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    border-radius: 0px 0px 15px 0px;
+
+ }
+
+ .OpcionesPerfil {
+    width: 50px;
+    height: 50px;
+    background-color:rgba(189, 9, 24, -0.2);
+    border: 0;
+} 
+
+.FlechaPerfil {
+
+    height: 30px;
+}
+
+.LinkGuia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #140846;
+    text-decoration: none;
+}
+
+.LinkGuia:hover {
+    color: rgb(156, 144, 231);
+    transition: all 0.3s;
+    text-decoration: underline;
+}
+
+
+.Home_container {
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.ImagenHome {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 35px;
+    width: 25rem;
+    height: 25rem;
+
+}
+
+.PalabrasHome {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #eb1212;
+    margin-bottom: 8px;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+}
+	
+	}/*Finalizacion breakpoint Monitores*/  
