@@ -11,7 +11,7 @@ body {
     height: 100vh;
     width: 100vw;
     border:0;
-    background-image: url(ImagenesHome/Club_Interior.png);
+    background-image: url('https://github.com/MarcoNu97/Proyecto_CAJL/blob/main/Interfaz%20Principal/ImagenesHome/Club_Interior.png?raw=true');
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
